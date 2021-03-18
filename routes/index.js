@@ -3,11 +3,13 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  let content = ""
+  res.render('index', { title: 'Express', content });
 })
 .post('/', (req, res, next)=>{
   console.log(req.body)
-  res.render('index', {title: 'Bongo'})
+  let content = req.body.content
+  res.render('index', {title: 'Bongo', content})
 })
 
 module.exports = router;
