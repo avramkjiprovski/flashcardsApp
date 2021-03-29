@@ -3,15 +3,45 @@
   <head>
     <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="/stylesheets/bootstrap.css" />
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <div class="container">
+      <h1 class="text-center"><%= title %></h1>
+      <div class="col">
+        
+        
+        <div class="card text-center w-50 m-auto">
+          <div class="card-header justify-content-center gap-2">
+            <input class="btn btn-outline-primary" type="button" value="Add">
+            <input class="btn btn-outline-primary" type="button" value="Flip">
+            <input class="btn btn-outline-primary" type="button" value="Remove">
+            <input class="btn btn-outline-primary" type="button" value="Edit">
+          </div>
+          <div class="card-body p-5 pt-2 m-auto shadow-sm">
+            <div class="row justify-content-end">
+              <p class="text-end m-0 mb-4 text-muted"><%= side %></p>
+            </div>
+            <div class="row">
+              <p class="card-text h5"><%= content %></p>
+              <!-- Ako se klikne kopceto edit, da se isprati forma so sodrzina content namesto <p> so sodrzina content. -->
+              <!-- Isto taka da se trgne klasata disabled od kopceto save dokolku sodrzinata e forma a ne paragraf -->
+            </div>
+          </div>
+          <div class="card-footer d-flex justify-content-between">
+            <input class="btn btn-outline-primary" type="button" value="Previous">
+            <input class="btn btn-success disabled" type="button" value="Save">
+            <input class="btn btn-outline-primary" type="button" value="Next">
+          </div>
+        </div>
+      </div>
+      
 
-    <form action="/" method="POST">
-      <textarea name="content" id="formContent" cols="30" rows="10"></textarea>
-      <input type="submit">
-    </form>
-    <p><%= content %></p>
+      <!-- <% // sakav da stavam tuka partials forma ili partials tag zavisno od nekoja pozadinska logika/interakcija so korisnikot %> -->
+      <!-- Znaci ako se isprati textarea element, pozicijata kajsto bila textarea sega da stane tekstualen element -->
+      
+    </div>
+
+    <script src="/javascripts/main.js"></script>
   </body>
 </html>
