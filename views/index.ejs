@@ -13,28 +13,33 @@
         
         <div class="card text-center w-50 m-auto">
           <div class="card-header justify-content-center gap-2">
-            <input class="btn btn-outline-primary" type="button" value="Add">
-            <input class="btn btn-outline-primary" type="button" value="Flip">
-            <input class="btn btn-outline-primary" type="button" value="Remove">
-            <input class="btn btn-outline-primary" type="button" value="Edit">
+            <a class="btn btn-outline-primary" href="/add">Add</a>
+            <a class="btn btn-outline-primary" href="/flip">flip</a>
+            <a class="btn btn-outline-primary" href="/remove">Remove</a>
+            <a class="btn btn-outline-primary" href="/edit/<%= card_number %>">Edit</a>
           </div>
-          <div class="card-body p-5 pt-2 m-auto shadow-sm">
+          <div class="card-body p-5 pt-2 m-auto shadow-sm w-100">
             <div class="row justify-content-end">
               <p class="text-end m-0 mb-4 text-muted"><%= side %></p>
             </div>
             <div class="row">
-              <p class="card-text h5"><%= content %></p>
+              <p class="card-text h5 p-5" id="card-content"><%= content %></p>
+              
               <!-- Ako se klikne kopceto edit, da se isprati forma so sodrzina content namesto <p> so sodrzina content. -->
               <!-- Isto taka da se trgne klasata disabled od kopceto save dokolku sodrzinata e forma a ne paragraf -->
+              
             </div>
           </div>
           <div class="card-footer d-flex justify-content-between">
             <input class="btn btn-outline-primary" type="button" value="Previous">
-            <input class="btn btn-success disabled" type="button" value="Save">
+            <input class="btn btn-success invisible" id="saveContent" type="button" value="Save">
             <input class="btn btn-outline-primary" type="button" value="Next">
           </div>
         </div>
       </div>
+      
+      
+        
       
 
       <!-- <% // sakav da stavam tuka partials forma ili partials tag zavisno od nekoja pozadinska logika/interakcija so korisnikot %> -->

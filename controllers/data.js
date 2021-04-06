@@ -27,3 +27,5 @@ updateFile:(filePath, data) => {
         }
     });
 }
+
+// OVA E NESTO STO SUM GO OTVORIL, NEKOJ FAJL ZA SPRAVUVANJE SO PODATOCI, NO KJE MORA DA POCEKA!
