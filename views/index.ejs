@@ -13,26 +13,40 @@
         
         <div class="card text-center w-50 m-auto">
           <div class="card-header justify-content-center gap-2">
-            <a class="btn btn-outline-primary" href="/add">Add</a>
-            <a class="btn btn-outline-primary" href="/flip">flip</a>
-            <a class="btn btn-outline-primary" href="/remove">Remove</a>
-            <a class="btn btn-outline-primary" href="/edit/<%= card_number %>">Edit</a>
+            <a class="btn btn-outline-primary" href="/add/<%= sideCard %>/<%= card_number %>">Add</a>
+            <a class="btn btn-outline-primary" href="/flip/<%= sideCard %>/<%= card_number %>">flip</a>
+            <a class="btn btn-outline-primary" href="/remove/<%= sideCard %>/<%= card_number %>">Remove</a>
+            <a class="btn btn-outline-primary" href="/edit/<%= sideCard %>/<%= card_number %>">Edit</a>
           </div>
           <div class="card-body p-5 pt-2 m-auto shadow-sm w-100">
             <div class="row justify-content-end">
               <p class="text-end m-0 mb-4 text-muted"><%= side %></p>
             </div>
             <div class="row">
-              <p class="card-text h5 p-5" id="card-content"><%= content %></p>
-              
-              <!-- Ako se klikne kopceto edit, da se isprati forma so sodrzina content namesto <p> so sodrzina content. -->
-              <!-- Isto taka da se trgne klasata disabled od kopceto save dokolku sodrzinata e forma a ne paragraf -->
+              <% if(condition == "edit"){ %>
+                <%- include ./partials/form.ejs -%>
+              <% } else if(condition == 0){ %>
+                <%- include ./partials/content_paragraph.ejs -%>
+              <% } %>
+
+              <!-- TODOS -->
+              <!-- [x] - If edit button is clicked, render form, else render content_paragraph -->
+              <!-- [] -  -->
+
+              <!-- Misli -->
+              <!-- Eden nacin kako mozam da "fatam" dali se raboti za edit url e da ispratam sodrzina preku render metodot od back-endot -->
+              <!-- Drug nacin e da stavam nekakva "active" klasa so samoto serviranje, ama ova voopsto ne bi bilo skalibilno -->
               
             </div>
           </div>
           <div class="card-footer d-flex justify-content-between">
             <input class="btn btn-outline-primary" type="button" value="Previous">
-            <input class="btn btn-success invisible" id="saveContent" type="button" value="Save">
+
+            <% if(condition == "edit"){ %>
+              <%- include ./partials/save_button.ejs -%>
+            <% } %>
+
+
             <input class="btn btn-outline-primary" type="button" value="Next">
           </div>
         </div>
@@ -47,6 +61,6 @@
       
     </div>
 
-    <script src="/javascripts/main.js"></script>
+    <!-- <script src="/javascripts/main.js"></script> -->
   </body>
 </html>

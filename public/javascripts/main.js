@@ -16,10 +16,7 @@ document.addEventListener("click", e => {
 // Function definitions
 let enableEdit = (element) => {
     if(element.value != 'Edit') return console.log("Ne")
-
-    let contentContainer = document.getElementById('card-content')
-    let cardContent = contentContainer.innerHTML
-    console.log('Card content\n' + cardContent)
+    
     document.getElementById('saveContent').classList.toggle('invisible')
 
     // contentContainer.innerHTML = tuka bi mi godelo fetch baranje dokolku go dobivam vo ovoj fajl tuka.
