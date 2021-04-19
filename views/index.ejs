@@ -31,23 +31,21 @@
 
               <!-- TODOS -->
               <!-- [x] - If edit button is clicked, render form, else render content_paragraph -->
-              <!-- [] -  -->
-
-              <!-- Misli -->
-              <!-- Eden nacin kako mozam da "fatam" dali se raboti za edit url e da ispratam sodrzina preku render metodot od back-endot -->
-              <!-- Drug nacin e da stavam nekakva "active" klasa so samoto serviranje, ama ova voopsto ne bi bilo skalibilno -->
+              <!-- [] - if add button is clicked render form again but this time with ability to add content -->
               
             </div>
           </div>
           <div class="card-footer d-flex justify-content-between">
-            <input class="btn btn-outline-primary" type="button" value="Previous">
+            <!-- <input class="btn btn-outline-primary" type="button" value="Previous"> -->
+            <a class="btn btn-outline-primary" href="/previous/<%= sideCard %>/<%= card_number %>">Previous</a>
 
             <% if(condition == "edit"){ %>
               <%- include ./partials/save_button.ejs -%>
             <% } %>
 
 
-            <input class="btn btn-outline-primary" type="button" value="Next">
+            <!-- <input class="btn btn-outline-primary" type="button" value="Next"> -->
+            <a class="btn btn-outline-primary" href="/next/<%= sideCard %>/<%= card_number %>">Next</a>
           </div>
         </div>
       </div>

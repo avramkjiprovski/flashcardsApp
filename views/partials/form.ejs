@@ -1,3 +1,5 @@
-<form id="saveContent" action="/save/<%= sideCard %>/<%= card_number %>" method="POST">
-      <textarea name="card_content" type="text" style="resize: none; box-sizing: border-box;" class="form-control" id="exampleFormControlTextarea1" rows="5"><%= content %></textarea>
+<form id="saveContent" action="/<%= command %>/<%= sideCard %>/<%= card_number %>" method="POST">
+      <textarea name="card_content" type="text" style="resize: none; box-sizing: border-box;" class="form-control" id="exampleFormControlTextarea1" rows="5">
+            <%= content %>
+      </textarea>
 </form>

@@ -1,1 +1,103 @@
-{"cards":[{"type":"flashcard","id":"0","attributes":{"title":"Flashcards","frontContent":"0 Stojko crta riba riba crta sotr motir bla bla glupa recenica sto ja mrazam od detstvoto.","backContent":"Aliquam fugiat officiis voluptates.","frontIndicator":"Question/Front Side","backIndicator":"Answer/Back Side"}},{"type":"flashcard","id":"1","attributes":{"title":"Flashcards","frontContent":"1DataJSON FrontContent Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, aliquam fugiat officiis voluptates expedita animi?","backContent":"Aliquam fugiat officiis voluptates.","frontIndicator":"Question/Front Side","backIndicator":"Answer/Back Side"}},{"type":"flashcard","id":"2","attributes":{"title":"Flashcards","frontContent":"2DataJSON FrontContent Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, aliquam fugiat officiis voluptates expedita animi?","backContent":"Aliquam fugiat officiis voluptates.","frontIndicator":"Question/Front Side","backIndicator":"Answer/Back Side"}}]}
+{
+   "cards":[
+      {
+         "type":"flashcard",
+         "id":"3",
+         "attributes":{
+            "title":"Flashcards",
+            "frontContent":"3 front side      ",
+            "backContent":"3 data json       ",
+            "frontIndicator":"Question/Front Side",
+            "backIndicator":"Answer/Back Side"
+         }
+      },
+      {
+         "type":"flashcard",
+         "id":"2",
+         "attributes":{
+            "title":"Flashcards",
+            "frontContent":"Type your question here...",
+            "backContent":"Type your answer here...",
+            "frontIndicator":"Question/Front Side",
+            "backIndicator":"Answer/Back Side"
+         }
+      },
+      {
+         "type":"flashcard",
+         "id":"3",
+         "attributes":{
+            "title":"Flashcards",
+            "frontContent":"2 front side",
+            "backContent":"Click edit and type your answer here...",
+            "frontIndicator":"Question/Front Side",
+            "backIndicator":"Answer/Back Side"
+         }
+      },
+      {
+         "type":"flashcard",
+         "id":"3",
+         "attributes":{
+            "title":"Flashcards",
+            "frontContent":"03 front side       ",
+            "backContent":"3 back side",
+            "frontIndicator":"Question/Front Side",
+            "backIndicator":"Answer/Back Side"
+         }
+      },
+      {
+         "type":"flashcard",
+         "id":"4",
+         "attributes":{
+            "title":"Flashcards",
+            "frontContent":"Click edit and type your question here...",
+            "backContent":"Click edit and type your answer here...",
+            "frontIndicator":"Question/Front Side",
+            "backIndicator":"Answer/Back Side"
+         }
+      },
+      {
+         "type":"flashcard",
+         "id":"5",
+         "attributes":{
+            "title":"Flashcards",
+            "frontContent":"Click edit and type your question here...",
+            "backContent":"Click edit and type your answer here...",
+            "frontIndicator":"Question/Front Side",
+            "backIndicator":"Answer/Back Side"
+         }
+      },
+      {
+         "type":"flashcard",
+         "id":"6",
+         "attributes":{
+            "title":"Flashcards",
+            "frontContent":"Click edit and type your question here...",
+            "backContent":"Click edit and type your answer here...",
+            "frontIndicator":"Question/Front Side",
+            "backIndicator":"Answer/Back Side"
+         }
+      },
+      {
+         "type":"flashcard",
+         "id":"7",
+         "attributes":{
+            "title":"Flashcards",
+            "frontContent":"Click edit and type your question here...",
+            "backContent":"Click edit and type your answer here...",
+            "frontIndicator":"Question/Front Side",
+            "backIndicator":"Answer/Back Side"
+         }
+      },
+      {
+         "type":"flashcard",
+         "id":"8",
+         "attributes":{
+            "title":"Flashcards",
+            "frontContent":"Click edit and type your question here...",
+            "backContent":"Click edit and type your answer here...",
+            "frontIndicator":"Question/Front Side",
+            "backIndicator":"Answer/Back Side"
+         }
+      }
+   ]
+}
