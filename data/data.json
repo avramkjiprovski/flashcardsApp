@@ -2,11 +2,11 @@
    "cards":[
       {
          "type":"flashcard",
-         "id":"3",
+         "id":"1",
          "attributes":{
             "title":"Flashcards",
-            "frontContent":"3 front side      ",
-            "backContent":"3 data json       ",
+            "frontContent":"card 0 front",
+            "backContent":"card 0 back",
             "frontIndicator":"Question/Front Side",
             "backIndicator":"Answer/Back Side"
          }
@@ -16,8 +16,8 @@
          "id":"2",
          "attributes":{
             "title":"Flashcards",
-            "frontContent":"Type your question here...",
-            "backContent":"Type your answer here...",
+            "frontContent":"1 front side",
+            "backContent":"1 back side",
             "frontIndicator":"Question/Front Side",
             "backIndicator":"Answer/Back Side"
          }
@@ -28,14 +28,14 @@
          "attributes":{
             "title":"Flashcards",
             "frontContent":"2 front side",
-            "backContent":"Click edit and type your answer here...",
+            "backContent":"2 back side",
             "frontIndicator":"Question/Front Side",
             "backIndicator":"Answer/Back Side"
          }
       },
       {
          "type":"flashcard",
-         "id":"3",
+         "id":"4",
          "attributes":{
             "title":"Flashcards",
             "frontContent":"03 front side       ",
@@ -46,22 +46,11 @@
       },
       {
          "type":"flashcard",
-         "id":"4",
-         "attributes":{
-            "title":"Flashcards",
-            "frontContent":"Click edit and type your question here...",
-            "backContent":"Click edit and type your answer here...",
-            "frontIndicator":"Question/Front Side",
-            "backIndicator":"Answer/Back Side"
-         }
-      },
-      {
-         "type":"flashcard",
          "id":"5",
          "attributes":{
             "title":"Flashcards",
-            "frontContent":"Click edit and type your question here...",
-            "backContent":"Click edit and type your answer here...",
+            "frontContent":"card 4 front",
+            "backContent":"card 4 back",
             "frontIndicator":"Question/Front Side",
             "backIndicator":"Answer/Back Side"
          }
@@ -71,8 +60,8 @@
          "id":"6",
          "attributes":{
             "title":"Flashcards",
-            "frontContent":"Click edit and type your question here...",
-            "backContent":"Click edit and type your answer here...",
+            "frontContent":"card 5 front",
+            "backContent":"card 5 back",
             "frontIndicator":"Question/Front Side",
             "backIndicator":"Answer/Back Side"
          }
@@ -82,8 +71,8 @@
          "id":"7",
          "attributes":{
             "title":"Flashcards",
-            "frontContent":"Click edit and type your question here...",
-            "backContent":"Click edit and type your answer here...",
+            "frontContent":"card 6 front",
+            "backContent":"card 6 back",
             "frontIndicator":"Question/Front Side",
             "backIndicator":"Answer/Back Side"
          }
@@ -93,8 +82,52 @@
          "id":"8",
          "attributes":{
             "title":"Flashcards",
-            "frontContent":"Click edit and type your question here...",
-            "backContent":"Click edit and type your answer here...",
+            "frontContent":"card 7 front",
+            "backContent":"card7  back",
+            "frontIndicator":"Question/Front Side",
+            "backIndicator":"Answer/Back Side"
+         }
+      },
+      {
+         "type":"flashcard",
+         "id":"9",
+         "attributes":{
+            "title":"Flashcards",
+            "frontContent":"card 8 front",
+            "backContent":"card 8 back",
+            "frontIndicator":"Question/Front Side",
+            "backIndicator":"Answer/Back Side"
+         }
+      },
+      {
+         "type":"flashcard",
+         "id":"10",
+         "attributes":{
+            "title":"Flashcards",
+            "frontContent":"card 9 front",
+            "backContent":"card 9 back",
+            "frontIndicator":"Question/Front Side",
+            "backIndicator":"Answer/Back Side"
+         }
+      },
+      {
+         "type":"flashcard",
+         "id":"11",
+         "attributes":{
+            "title":"Flashcards",
+            "frontContent":"card 10 front",
+            "backContent":"card 10 back",
+            "frontIndicator":"Question/Front Side",
+            "backIndicator":"Answer/Back Side"
+         }
+      },
+      {
+         "type":"flashcard",
+         "id":"12",
+         "attributes":{
+            "title":"Flashcards",
+            "frontContent":"card 11 front",
+            "backContent":"card 11 back",
             "frontIndicator":"Question/Front Side",
             "backIndicator":"Answer/Back Side"
          }
