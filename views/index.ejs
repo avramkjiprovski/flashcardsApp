@@ -28,37 +28,21 @@
               <% } else if(condition == 0){ %>
                 <%- include ./partials/content_paragraph.ejs -%>
               <% } %>
-
-              <!-- TODOS -->
-              <!-- [x] - If edit button is clicked, render form, else render content_paragraph -->
-              <!-- [] - if add button is clicked render form again but this time with ability to add content -->
               
             </div>
           </div>
           <div class="card-footer d-flex justify-content-between">
-            <!-- <input class="btn btn-outline-primary" type="button" value="Previous"> -->
             <a class="btn btn-outline-primary" href="/previous/<%= sideCard %>/<%= card_number %>">Previous</a>
 
             <% if(condition == "edit"){ %>
               <%- include ./partials/save_button.ejs -%>
             <% } %>
 
-
-            <!-- <input class="btn btn-outline-primary" type="button" value="Next"> -->
             <a class="btn btn-outline-primary" href="/next/<%= sideCard %>/<%= card_number %>">Next</a>
           </div>
         </div>
       </div>
-      
-      
-        
-      
-
-      <!-- <% // sakav da stavam tuka partials forma ili partials tag zavisno od nekoja pozadinska logika/interakcija so korisnikot %> -->
-      <!-- Znaci ako se isprati textarea element, pozicijata kajsto bila textarea sega da stane tekstualen element -->
-      
     </div>
-
-    <!-- <script src="/javascripts/main.js"></script> -->
+    
   </body>
 </html>
